@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,400;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: black;
+    --bs-gutter-x: 0rem;
+}
+
+.w-100 {
+    width: 100% !important;
+    max-width: 800px !important;
+    align-items: center;
+}
+
+.imagenes {
+    display: block;
+    margin-block-start: 2rem;
+    margin-block-end: 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 2rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.logoflotante {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 100px;
+    color: #20ba5a;
+}
+
+.contactopie {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.fondo-nav {
+    background-color: rgb(0, 0, 0);
+}
+
+.fondo-main {
+    background: linear-gradient(rgb(33, 37, 41), rgb(0, 0, 0));
+}
+
+.image {
+    border-radius: 35px;
+    padding: 10px;
+}
+
+.video{
+    padding: 50px;
+    margin: 10px;
+}
+
+.estilo-letras {
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.contacto {
+    text-align: left
+}
+
+.boton {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.mapa{
+    height: 40vw;
+    padding: 50px;
+    margin: 10px;
+}
