@@ -1,0 +1,17 @@
+
+.fondo-main {
+    background: linear-gradient(rgb(33, 37, 41), rgb(0, 0, 0));
+}
+
+.logoflotante {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 100px;
+    color: #20ba2d;
+    
+    &:hover{
+        color: #0e5a18;
+    }
+}
+

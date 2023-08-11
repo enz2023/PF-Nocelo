@@ -1,0 +1,24 @@
+.video {
+    
+    padding: 30px;
+       
+}
+
+.video-borde{
+    border-radius: 20px;
+}
+
+.img-galeria {
+    border-radius: 10px;
+    box-shadow: .2rem .2rem 1rem #111111, -.2rem -.2rem 1rem #111111;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    width: 85%;
+    margin-top: 55px;
+    margin-bottom: 35px;
+
+    &:hover {
+    box-shadow: .2rem .2rem 1rem #4b4b4b, -.2rem -.2rem 1rem #4b4b4b;
+    transform: scale(1.2);
+    }
+}

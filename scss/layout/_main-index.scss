@@ -1,0 +1,41 @@
+
+main {
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+    div {
+        div {
+            div {
+                div {
+                    div {
+                        div {
+                            img {
+                                display: block;
+                                margin-block-start: 2rem;
+                                margin-block-end: 1rem;
+                                border-radius: 35px;
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            div {
+                p {
+                    display: block;
+                    margin-block-start: 2rem;
+                    margin-block-end: 1rem;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    margin-left: 25px;
+                    margin-right: 25px;
+                    padding-top: 5px;
+                }
+            }
+        }
+        
+    }
+}
+

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,400;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: black;
+    --bs-gutter-x: 0rem;
+}
+
+// .w-100 {
+//     width: 100% !important;
+//     max-width: 1000px !important;
+//     align-items: center;
+// }
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.estilo-letras {
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+

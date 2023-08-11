@@ -1,0 +1,22 @@
+.estilo-boton {
+    width: 150px;
+    margin: 45px 30px;
+    background: linear-gradient((40deg, rgb(36, 54, 73), rgb(0, 0, 0)));
+    font-weight: semibold;
+    color: #ffffffee;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1.5s ease;
+    box-shadow: .5rem .5rem 1rem #5c5050, -.5rem -.5rem 1rem #5c5050;
+}
+
+.estilo-boton:hover {
+    box-shadow: .8rem .8rem 1rem #fff, -.8rem -.8rem 1rem #ccc;
+}
+
+.estilo-boton:active {
+    box-shadow: inset .1rem .1rem 1rem #fff, inset -.1rem -.1rem 1rem #ccc;
+}
